@@ -56,6 +56,10 @@ docker-compose.override.yaml
 ###< squizlabs/php_codesniffer ###
 
 ###> symfony/framework-bundle ###
+htdocs
+/htdocs
+.env
+/.env
 /.env.local
 /.env.local.php
 /.env.*.local
