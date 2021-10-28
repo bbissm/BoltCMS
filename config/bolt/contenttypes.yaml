@@ -3,7 +3,23 @@
 
 # The Homepage content type is a singleton: There can be only one record of this
 # content type.
-
+news:
+    name: News
+    singular_name: NewsItem
+    fields:
+        title:
+            type: text
+            class: large
+        slug:
+            type: slug
+            uses: title
+        photo:
+            type: image
+        text:
+            type: html
+            height: 300px
+    record_template: newsitem.twig
+            
 homepage:
     name: Homepage
     singular_name: Homepage

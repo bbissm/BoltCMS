@@ -23,5 +23,7 @@ main:
     link: https://boltcms.io
     class: bolt-site
     title: Visit the excellent Bolt website!
+  - label: News
+    link: news
 
 foo: bar
